@@ -1,0 +1,180 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:qs:20170213':
+    - body-parser > qs:
+        reason: None given
+        expires: '2222-06-12T10:31:41.491Z'
+    - tap > codecov.io > request > qs:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  'npm:ejs:20161130-1':
+    - ejs:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - ejs-locals > ejs:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  'npm:ejs:20161130':
+    - ejs:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - ejs-locals > ejs:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  'npm:ejs:20161128':
+    - ejs:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - ejs-locals > ejs:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  SNYK-JS-JQUERY-174006:
+    - jquery:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:jquery:20150627':
+    - jquery:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:npmconf:20180512':
+    - npmconf:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:semver:20150403':
+    - npmconf > semver:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:st:20171013':
+    - st:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:mime:20170907':
+    - st > mime:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:negotiator:20160616':
+    - st > negotiator:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:st:20140206':
+    - st:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:hoek:20180212':
+    - tap > coveralls > request > hawk > boom > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - tap > coveralls > request > hawk > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - tap > coveralls > request > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - tap > coveralls > request > hawk > sntp > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - tap > codecov.io > request > hawk > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > codecov.io > request > hawk > boom > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > codecov.io > request > hawk > sntp > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > codecov.io > request > hawk > cryptiles > boom > hoek:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  SNYK-JS-JSYAML-174129:
+    - tap > coveralls > js-yaml:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - tap > nyc > istanbul > js-yaml:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  SNYK-JS-JSYAML-173999:
+    - tap > coveralls > js-yaml:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+    - tap > nyc > istanbul > js-yaml:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  'npm:tunnel-agent:20170305':
+    - tap > coveralls > request > tunnel-agent:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:ms:20170412':
+    - tap > tap-mocha-reporter > debug > ms:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  'npm:debug:20170905':
+    - tap > tap-mocha-reporter > debug:
+        reason: None given
+        expires: '2019-06-12T10:31:41.491Z'
+  SNYK-JS-HANDLEBARS-173692:
+    - tap > nyc > istanbul > handlebars:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  SNYK-JS-HANDLEBARS-174183:
+    - tap > nyc > istanbul > handlebars:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  'npm:brace-expansion:20170302':
+    - tap > nyc > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > nyc > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > nyc > istanbul > fileset > minimatch > brace-expansion:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > nyc > spawn-wrap > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > nyc > istanbul > fileset > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+  'npm:braces:20180219':
+    - tap > nyc > micromatch > braces:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+    - tap > nyc > test-exclude > micromatch > braces:
+        reason: None given
+        expires: '2019-06-12T10:31:41.492Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:negotiator:20160616':
+    - errorhandler > accepts > negotiator:
+        patched: '2019-05-13T10:28:37.005Z'
+  'npm:ms:20170412':
+    - ms:
+        patched: '2019-05-13T10:28:37.005Z'
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2019-05-13T10:28:37.005Z'
+  'npm:http-signature:20150122':
+    - tap > codecov.io > request > http-signature:
+        patched: '2019-05-13T10:28:37.005Z'
+  'npm:mime:20170907':
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2019-05-13T10:28:37.005Z'
+  'npm:minimatch:20160620':
+    - tap > nyc > rimraf > glob > minimatch:
+        patched: '2019-05-13T10:28:37.005Z'
+    - tap > nyc > spawn-wrap > rimraf > glob > minimatch:
+        patched: '2019-05-13T10:28:37.005Z'
+    - tap > nyc > istanbul > fileset > minimatch:
+        patched: '2019-05-13T10:28:37.005Z'
+    - tap > nyc > istanbul > fileset > glob > minimatch:
+        patched: '2019-05-13T10:28:37.005Z'
+    - tap > nyc > glob > minimatch:
+        patched: '2019-05-13T10:28:37.005Z'
+  'npm:request:20160119':
+    - tap > codecov.io > request:
+        patched: '2019-05-13T10:28:37.005Z'
+  'npm:tunnel-agent:20170305':
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2019-05-13T10:28:37.005Z'
