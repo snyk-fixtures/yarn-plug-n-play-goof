@@ -161,6 +161,8 @@ patch:
   'npm:mime:20170907':
     - tap > codecov.io > request > form-data > mime:
         patched: '2019-05-13T10:28:37.005Z'
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2019-11-14T15:25:56.591Z'
   'npm:minimatch:20160620':
     - tap > nyc > rimraf > glob > minimatch:
         patched: '2019-05-13T10:28:37.005Z'
@@ -178,3 +180,5 @@ patch:
   'npm:tunnel-agent:20170305':
     - tap > codecov.io > request > tunnel-agent:
         patched: '2019-05-13T10:28:37.005Z'
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2019-11-14T15:25:56.591Z'
